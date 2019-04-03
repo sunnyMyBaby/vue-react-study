@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <title>react-ssr-yangguang</title> -->
+    <%%- meta %>
+    <%%- title %>
+    <%%- link %>
+    <%%- style %>
+  </head>
+  <body>
+    <div id="root"><%%- appString %></div>
+    <script>
+      window.__INITIAL__START__ = <%%- initialState%> 
+    </script>
+  </body>
+</html>

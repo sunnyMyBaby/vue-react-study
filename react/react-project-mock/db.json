@@ -1,0 +1,4 @@
+{
+  "list": ["react","vue","angular"],
+  "listSaga": ["react-saga","vue-saga","angular-soga"]
+}

@@ -1,0 +1,55 @@
+
+.header[data-v-2ee60ea8] {
+  text-align: center;
+}
+h1[data-v-2ee60ea8]{
+  font-size: 100px;
+  color: rgba(175, 47, 47,1);
+  font-weight: 600;
+  margin: 20px;
+}
+
+#footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #af2f2f;
+  font-size: 20px;
+}
+
+
+#cover[data-v-1beb3b9e]{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom: 0;
+  background-color: #999;
+  opacity: 0.4;
+  z-index: -1
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  position: absolute;
+  background-image: url(../resources/client/assets/images/face-bg.7a23aa4a.jpg);
+  background-size: cover;
+  background-position: center;
+  font: 14px;
+  color: #4d4;
+  font-weight: 300;
+  z-index: 100;
+}
+.fade-enter-active.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+

@@ -1,0 +1,48 @@
+
+{
+  "success": true,
+  "data": {
+    "topicList": [
+      {
+        "title": "topic1",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      },    {
+        "title": "topic2",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      }
+    ],  
+    "articleList": [
+      {
+        "id": 1,
+        "title": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "desc": "文/麦大人01胡歌xxxxxxxxxxxx",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      }, {
+        "id": 2,
+        "title": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "desc": "文/麦大人01胡歌xxxxxxxxxxxx",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      }, {
+        "id": 3,
+        "title": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "desc": "文/麦大人01胡歌xxxxxxxxxxxx",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      }, {
+        "id": 4,
+        "title": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "desc": "文/麦大人01胡歌xxxxxxxxxxxx",
+        "src": "http://img0.imgtn.bdimg.com/it/u=1174268513,265164193&fm=26&gp=0.jpg"
+      }
+    ],  
+    "recommentList": [
+      {
+        "id": 1,
+        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+      },
+      {
+        "id": 2,
+        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+      }
+    ]
+  }
+}

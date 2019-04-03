@@ -1,0 +1,5 @@
+export const CHANGE_INPUT_VALUE = 'type_input_value'
+export const ADD_TO_LIST = 'add_to_list'
+export const DELETE_ITEM = 'delete_item'
+export const INIT_LIST_ACTION = 'init_list_action'
+export const GET_LIST_SAGA = 'get_list_saga'

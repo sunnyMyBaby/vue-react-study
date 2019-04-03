@@ -1,0 +1,11 @@
+{
+  "name": "react-project-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "json-server db.json --port 3003"
+  },
+  "author": "",
+  "license": "ISC"
+}

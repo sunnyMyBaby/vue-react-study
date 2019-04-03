@@ -1,0 +1,22 @@
+  1,eslint
+
+  "eslint": "^5.7.0",
+  "eslint-config-standard": "^12.0.0",
+  "eslint-plugin-import": "^2.14.0",
+  "eslint-plugin-node": "^7.0.1",
+  "eslint-plugin-promise": "^4.0.1",
+  "eslint-plugin-standard": "^4.0.0",
+  我们用的是eslint-config-standard的标准，下面都是这个标准推荐安装的
+  因为我们写的是.vue文件，里边的js不是标准的js文件eslint没有办法直接识别vue里边的js代码
+  所以我们需要安装eslint-plugin-html，因为我们在.vue里边写的js代码也是在<script></script>标签里边的所以、
+  eslint-plugin-html 会帮我们解析一个文件里边的script标签下的代码
+  然后在Package.json文件里边配置"lint": "eslint --ext .js --ext .jsx --ext .vue client/" ，client代表那个文件夹下
+  "lint": "eslint --ext .js --ext .jsx --ext .vue client/",
+  "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue client/" 添加--fix后添加该命令会自动帮我们处理好eslint的错误
+
+
+  // 我们希望在开发中每次修改代码都会进行eslint的检查我们就需要eslint-loader，babel-eslint
+  // 我们的项目都是基于webapck开发的我们的代码都是经过babel处理过的babel处理的语法可能对eslint不是特别支持
+  // 然后我们使用loader
+
+  2,在使用husky时首先要进行git init对仓库进行初始化，如果没有git 目录都没有那么再cnpm install husky 过程中生成的git hock没有办法放进去

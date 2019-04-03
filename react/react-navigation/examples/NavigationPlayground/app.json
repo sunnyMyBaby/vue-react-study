@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "NavigationPlayground",
+    "description": "Try out react-navigation now with this awesome playground",
+    "version": "1.0.0",
+    "slug": "NavigationPlayground",
+    "privacy": "public",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/icon.png",
+    "splash": {
+      "image": "./assets/icons/splash.png"
+    },
+    "sdkVersion": "27.0.0",
+    "entryPoint": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.reactnavigation.example",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.reactnavigation.example"
+    }
+  }
+}
